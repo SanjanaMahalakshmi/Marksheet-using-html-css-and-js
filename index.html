@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-4"><h5>SR.No.<span id="num">00000000</span></h5></div>
+                <div class="col-4"><img src="assets/images.jpeg"></div>
+                <div class="col-4"><img src="assets/Untitled 1.png" id="qr"></div>
+            </div>
+            <h3 id="heading3">Hindusthan College Of Engineering and Technology</h3>
+            <h5>An Autonomous Institution, Affiliated to Anna University, Chennai</h5>
+            <h5>Coimbatore-641032</h5>
+            <div class="col-12 subsection">
+                <h4 id="heading2">Annual Statement of Marks</h4>
+                <div class="row row1">
+                    <div class="col-xl-6 col-sm-12 subsec">
+                        <span id="headings">Name of the Candidate</span>
+                        <p class="para2">Sanjana Mahalakshmi R</p>
+                    </div>
+                    <div class="col-xl-6 col-sm-12 subsec1">
+                        <span id="headings">Course Name with Code</span>
+                        <p class="para2" id="head1">B.Tech Artificial Intelligence & Machine Learning</p>
+                    </div>
+                </div>
+                <div class="row row2" id="row2">
+                    <div class="col-3" id="hel"><p><span id="headings">Reg.No</span><br>720721115045</div>
+                    <div class="col-3" id="hel1"><span id="headings">Enrollment.No</span><br>U036443</div>
+                    <div class="col-3" id="hel"><p><span id="headings">Month&Year of Examination</span><br>Nov/Dec 2023</div>
+                    <div class="col-3"><span id="headings">Date of Publication</span><br>16-Feb-2024</div>
+                </div>
+            </div>
+            <div class="col-12 subsection1">
+                <div class="row row1 subsec">
+                    <div class="col-xl-3 col-sm-6 subsec">
+                        <p class="para3"><span id="headings">Subject Code</span></p>
+                        <p class="para4">21AI5201</p>
+                        <p class="para4">21AI5202</p>
+                        <p class="para4">21AI5301</p>
+                        <p class="para4">21AI5251</p>
+                        <p class="para4">21AI5252</p>
+                        <p class="para4">21HE5181</p>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 subsec">
+                        <p class="para3"><span id="headings">Subject Name</span></p>
+                        <p class="para5">Computer Networks</p>
+                        <p class="para5">Data Analytics</p>
+                        <p class="para5">AI for Cyber Security</p>
+                        <p class="para5">Object Oriented Analysis and Design</p>
+                        <p class="para5">Introduction to Design Thinking</p>
+                        <p class="para5">Management Information System</p>
+                    </div>
+                    <div class="col-xl-1 col-sm-2 subsec">
+                        <p class="para3 para"><span id="headings">Max.Marks</span></p>
+                        <p class="para6">100</p>
+                        <p class="para6">100</p>
+                        <p class="para6">100</p>
+                        <p class="para6">100</p>
+                        <p class="para6">100</p>
+                        <p class="para6">100</p>
+                    </div>
+                    <div class="col-xl-3 col-sm-7">
+                        <div class="row">
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 col-sm-4 subsec1">
+                                <p class="para3" id="hel1"><span id="headings">Theory</span></p>
+                                <input type="number" id="theory1">
+                                <input type="number" id="theory2">
+                                <input type="number" id="theory3">
+                                <input type="number" id="theory4">
+                                <input type="number" id="theory5">
+                                <input type="number" id="theory6">
+                            </div>
+                            <div class="col-xl-4 col-sm-4 subsec1">
+                                <p class="para3" id="hel1"><span id="headings">Practical</span></p>
+                                <input type="number" id="practical1">
+                                <input type="number" id="practical2">
+                                <input type="number" id="practical3">
+                                <input type="number" id="practical4">
+                                <input type="number" id="practical5">
+                                <input type="number" id="practical6">
+                            </div>
+                            <div class="col-xl-4 col-sm-4 subsec1">
+                                <p class="para3" id="hel1"><span id="headings">Total</span></p>
+                                <input type="number" id="total1" readonly>
+                                <input type="number" id="total2" readonly>
+                                <input type="number" id="total3" readonly>
+                                <input type="number" id="total4" readonly>
+                                <input type="number" id="total5" readonly>
+                                <input type="number" id="total6" readonly>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-sm-3 subsec">
+                        <p class="para3"><span id="headings">Grade</span></p><br>
+                        <input type="text" id="grade1" readonly>
+                        <input type="text" id="grade2" readonly>
+                        <input type="text" id="grade3" readonly>
+                        <input type="text" id="grade4" readonly>
+                        <input type="text" id="grade5" readonly>
+                        <input type="text" id="grade6" readonly>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-sm-12 subsection2">
+                        <p class="tot">Grand Total: <span id="total"></span></p>
+                        <p class="tot"> Grade: B<span id="totalWords"></span></p>
+                     </div>
+                </div>
+                <div class="row subsection3">
+                    <div class="col-xl-5 col-sm-7 subsec2" id="line">
+                        <p class="p">Month and Year of Examination</p>
+                        <p>May 2024</p>
+                    </div>
+                    <div class="col-xl-3 col-sm-5 subsec2" id="line">
+                        <p class="p">No. of Subject Offered</p>
+                        <p id="noSub">T4 + P1 = 5</p>
+                    </div>
+                    <div class="col-xl-1 col-sm-4 subsec2" id="line">
+                        <p class="p">Result</p>
+                        <p id="pass">PASS</p>
+                    </div>
+                    <div class="col-xl-2 col-sm-4 subsec2" id="line">
+                        <p class="p">Percentage</p>
+                        <p id="percentage">0</p>
+                    </div>
+                    <div class="col-xl-1 col-sm-4 subsec2">
+                        <p class="p">Grade</p>
+                        <p id="grade">A</p>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="row foot">
+                    <div class="col-6 final1">
+                        <p class="p">Date: <span id="date">01-08-2024</span></p></div>
+                        <div class="col-6 final2">
+                            <p class="signpara">(Signature of Deputy<br> Controller of Examination)</p>
+                            
+                        </div> 
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+                
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
